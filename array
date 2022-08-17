@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int arr[]={4,5,1,2,6,7};
+	int len=sizeof(arr)/sizeof(int);
+	int k,i,found=0;
+	scanf("%d",&k);//2
+	for(i=0;i<len;i++)
+	{
+	if(arr[i]==k)
+	{
+		//found
+		printf("element found in index %d",i);
+		found=1;
+		break;
+     }
+	}
+	//not found
+	if(found==0)
+	printf("ELEMENT NOT FOUND!");
+}
