@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int *p,*q;
+	int a,b;
+	scanf("%d%d",&a,&b);
+	p=&a;
+	q=&b;
+	printf("%d\n",*p+*q);
+	printf("%d",abs(*p-*q));
+	return 0;
+}
