@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,x=0;
+	scanf("%d",&n);//25
+	if(n==1)
+	x=1;
+	else
+	{
+		for(i=1;i<=n/2;i++)
+		{
+			if(n==i*i)
+			{
+				x=1;
+				break;
+			}
+		}
+	}
+	if(x==1)
+	printf("perfect square");
+	else
+	printf("not a perfect square");
+}
