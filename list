@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node
+{
+	int data;
+	struct node *ref;
+};
+struct node *head;
+void binsert();//insertion at begin
+void display();//shows how many elements in the list
+int main()
+{
+	//display();
+	binsert();//function call
+	binsert();
+	binsert();
+	binsert();
+	display();
+	
+}
+void display()
+{
+	struct node *ptr;
+	ptr=head;
+	if(ptr==NULL)
+	printf("there are no nodes in the list \n");
+	else
+	{
+		printf("elements in the list are ....\n");
+		while(ptr!=NULL)
+		{
+			printf("%d",ptr->data);
+			ptr=ptr->ref;
+		}
+	}
+}
+void binsert()//function definition or body
+{
+	struct node *ptr;
+	int ele;
+	ptr=(struct node)malloc(sizeof(struct node));
+	if(ptr==NULL)
+	printf("we can't insert any elements \n");
+	else
+	{
+		printf("enter any element to insert \n");
+		scanf("%d",&ele);
+		ptr->data=ele;
+		ptr->ref=head;
+		head=ptr;
+		printf("element is inserted successfully \n");
+	}
+}
