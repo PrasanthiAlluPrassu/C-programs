@@ -1,0 +1,17 @@
+
+
+
+sno=int(input("enter student no:"))
+name=input("enter student name:")
+group=input("enter student group:")
+gender=input("enter the gender:")
+address=input("enter the address:")
+phone no=int(input("enter the phone no:"))
+degree_percentage=int (input("enter the degree_percentage:"))
+print("sno:",sno)
+print("name:",name)
+print("group:",group)
+print("gender:",gender)
+print("address:",address)
+print("phone no:",phone no)
+print("degree_percentage:",degree_percentage)
