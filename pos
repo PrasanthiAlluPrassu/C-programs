@@ -1,0 +1,6 @@
+a=12
+b=15
+if a+b/a-b:
+    print('positive')
+else:
+    print('negetive')
