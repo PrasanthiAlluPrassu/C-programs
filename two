@@ -1,0 +1,7 @@
+#write a program to print biggest of two numbers
+a=16
+b=31
+if a>b:
+    print('a is big')
+else:
+    print('b is big')
