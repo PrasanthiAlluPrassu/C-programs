@@ -1,0 +1,6 @@
+a=25
+b=64
+if a==b:
+    print('equal')
+else:
+    print('not equal')
