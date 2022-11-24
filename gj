@@ -1,0 +1,12 @@
+sno=int(input('student number'))
+name=input('student name')
+group=input('student group')
+s1=int(input('enter the maths'))
+s2=int(input('enter the chemistry'))
+s3=int(input('enter the physics'))
+total=s1+s2+s3;
+avg=total/3
+print('sno:',sno)
+print('name:',name)
+print('group:',group)
+print('total:',total)
