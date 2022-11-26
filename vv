@@ -1,0 +1,5 @@
+a=10
+a>>2
+print('enter the digit')
+a=int(input())
+print('right shift a>>2')
