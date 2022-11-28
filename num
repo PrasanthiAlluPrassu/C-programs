@@ -1,0 +1,4 @@
+N=100
+print(~N)
+N=-100
+print(~N)
