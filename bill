@@ -1,0 +1,30 @@
+da1=200
+nuts=300
+bg=450
+gg=500
+gn=550
+cphno=input('enter number')
+name=input('enter name')
+addr=input('enter address')
+dal=int(input('how many kgs you want:'))
+nuts=int(input('how many kgs you want:'))
+bg=int(input('how many kgs you want:'))
+gg=int(input('how many kgs you want:'))
+gn=int(input('how many kgs you want:'))
+bill=(gc*dal)+(gc*nuts)+(bgc*bg)+(gg*ggc)+(gn*gnc)
+if bill>3000:
+ tax = bill*5/100 
+elif bill>2000:
+ tax=bill*7/100
+elif bill>1000:
+ tax = bill*10/100
+elif bill>500:
+ tax = bill*15/100
+else:
+ tax = 100
+tax=tax+bill
+print('customer phone number:',cphno)
+print('customer name:',name)
+print('customer address:',addr)
+print('bill amount:',bill)
+ 
