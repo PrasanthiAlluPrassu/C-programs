@@ -1,0 +1,7 @@
+def  leap(n)
+if year%4==0 and year%100!=0:
+    return true
+    elif year+400==0:
+        return trun
+        else:
+            return false
