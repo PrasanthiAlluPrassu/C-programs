@@ -1,0 +1,7 @@
+n=153
+i=1
+while(n%i==1):
+    i=i+1
+    print('armstrong')
+    else:
+        print('not armstrong')
