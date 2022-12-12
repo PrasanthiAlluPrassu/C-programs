@@ -1,0 +1,15 @@
+from tkinter import *
+sf=TK()
+sf.title("Student login");
+Lable(sf,text="Enter student id:").grid(row=0)
+Lable(sf,text="Enter student name:").grid(row=1)
+Lable(sf,text="Enter father name:").grid(row=2)
+Lable(sf,text="Enter student group:").grid(row=3)
+Lable(sf,text="Enter phone number:").grid(row=4)
+Lable(sf,text="Enter emile id:").grid(row=5)
+Lable(sf,text="Enter student address:").grid(row=6)
+Entery(sf).grid(row=0,column=1)
+Entery(sf).grid(row=1,column=1)
+Button(sf,text="submit").grid(row=2)
+Button(sf,text="cancel").grid(row=2,column=1)
+Mainloop()
