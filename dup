@@ -1,0 +1,4 @@
+l=[1,2,6,6,5,4]
+l.sort(reverse=True)
+print(l)
+set()
